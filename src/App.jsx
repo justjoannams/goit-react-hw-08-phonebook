@@ -24,7 +24,7 @@ const ContactsPage = () => {
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/goit-react-hw-08-phonebook",
     element: (
       <div>
         <Navigation />
@@ -34,21 +34,21 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "register",
+    path: "/goit-react-hw-08-phonebook/register",
     element: <>
          <Navigation />
     <RegisterPage />
     </>,
   },
   {
-    path: "login",
+    path: "/goit-react-hw-08-phonebook/login",
     element: <>
        <Navigation />
     <LoginPage />
     </>,
   },
   {
-    path: "contacts",
+    path: "/goit-react-hw-08-phonebook/contacts",
     element: (
       <PrivateRoute>
         <ContactsPage />

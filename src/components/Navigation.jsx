@@ -5,9 +5,9 @@ const Navigation = () => (
   <AppBar position="static">
     <Toolbar>
       <Box sx={{ flexGrow: 1 }}>
-        <Button component={Link} to="/" color="inherit">Home</Button>
-        <Button component={Link} to="/register" color="inherit">Register</Button>
-        <Button component={Link} to="/login" color="inherit">Login</Button>
+        <Button component={Link} to="/goit-react-hw-08-phonebook" color="inherit">Home</Button>
+        <Button component={Link} to="/goit-react-hw-08-phonebook/register" color="inherit">Register</Button>
+        <Button component={Link} to="/goit-react-hw-08-phonebook/login" color="inherit">Login</Button>
       </Box>
     </Toolbar>
   </AppBar>
