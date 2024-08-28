@@ -17,7 +17,7 @@ const RegisterPage = () => {
         const resultAction = await dispatch(signupUser({ email,name, password }));
         if (signupUser.fulfilled.match(resultAction)) {
           // Redirect to contacts page on success
-          navigate('/contacts');
+          navigate('/goit-react-hw-08-phonebook/contacts');
         }
       } catch (error) {
         console.error('Failed to register:', error);

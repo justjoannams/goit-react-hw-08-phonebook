@@ -17,7 +17,7 @@ const LoginPage = () => {
       const resultAction = await dispatch(loginUser({ email, password }));
       if (loginUser.fulfilled.match(resultAction)) {
         // Redirect to contacts page on success
-        navigate('/contacts');
+        navigate('/goit-react-hw-08-phonebook/contacts');
       }
     } catch (error) {
       console.error('Failed to login:', error);

@@ -29,7 +29,6 @@ const router = createBrowserRouter([
       <div>
         <Navigation />
         <h1>Welcome to Contact Book</h1>
-        <Link to="contacts">Contacts</Link>
       </div>
     ),
   },
